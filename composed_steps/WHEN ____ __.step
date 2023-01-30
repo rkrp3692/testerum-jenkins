@@ -1,0 +1,3 @@
+step-def: When 회원가입 클릭
+
+    step: When I click the element <<id=a_join>>

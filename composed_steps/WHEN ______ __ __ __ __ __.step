@@ -1,0 +1,3 @@
+step-def: When 인증프로그램 설치 팝업 확인 버튼 클릭
+
+    step: When I press OK button on the alert, confirm or prompt popup

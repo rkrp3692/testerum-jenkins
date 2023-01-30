@@ -1,0 +1,4 @@
+step-def: When 사람인 아이디 만들기 클릭
+
+    step: When I click the element <<{{elementLocator}}>>
+        var elementLocator = <<#content \> div \> div \> div.join_content.join_input_wrap \> div \> div.join_form \> button>>

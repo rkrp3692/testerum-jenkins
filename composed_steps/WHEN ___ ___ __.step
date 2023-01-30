@@ -1,0 +1,3 @@
+step-def: When 로그인 페이지 확인
+
+    step: Then the element <<#ogtxBefore \> div \> button>> should be displayed

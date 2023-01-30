@@ -1,0 +1,3 @@
+step-def: When 공동인증서 로그인 클릭
+
+    step: When I click the element <<#certtabCont \> div.box \> div.btn_area \> button:nth-child(1)>>

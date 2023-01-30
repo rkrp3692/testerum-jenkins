@@ -1,0 +1,12 @@
+test-def: ScrollTest
+
+    step: Given <<https://www.saramin.co.kr/zf_user/>> 접속
+    step: When 로그인 클릭
+    step: When 회원가입 클릭
+    step: When 사람인 아이디 만들기 클릭
+    step: When I wait <<3000>> milliseconds
+    step: Then 회원가입 입력란 클릭
+    step: When I wait <<5000>> milliseconds
+    step: When I scroll into view the element <<id=btn_submit>>
+    step: When I wait <<3000>> milliseconds
+    step: When I scroll into view the element <<id=id>>

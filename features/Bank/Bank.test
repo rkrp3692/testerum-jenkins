@@ -1,0 +1,7 @@
+test-def: Bank
+
+    step: Given <<https://www.kbstar.com/>> 접속
+    step: When 로그인 클릭
+    step: When 로그인 페이지 확인
+    step: When 공동인증서 로그인 클릭
+    step: When 인증프로그램 설치 팝업 확인 버튼 클릭

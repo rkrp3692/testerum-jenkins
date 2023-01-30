@@ -1,0 +1,3 @@
+step-def: When 로그인 클릭
+
+    step: When I click the element <<#sri_header \> div.wrap_header \> div.utility \> div.sign \> a.btn_sign.signin>>

@@ -1,0 +1,3 @@
+step-def: Given <<url: TEXT>> 접속
+
+    step: Given the page at url <<{{url}}>> is open
